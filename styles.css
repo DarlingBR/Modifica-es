@@ -3,6 +3,9 @@
 
 :root {
     --roxo: #32005a;
+    --alto-contraste-fundo: #000000;
+    -alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ffd700;
 }
 
 body {
@@ -165,4 +168,25 @@ h2 {
     display: none;
  }
  
+ .alto-contraste .nav-link{
+    color: var(--alto-contraste-link);
+ }
+
+ .alto-contraste .botao-inicio,
+ .alto-contraste .formulario button,
+ .alto-contraste .btn-primary{
+    background-color:var(--alto-contraste-link) ;
+    color: var(--alto-contraste-fundo)
+ }
  
+ .alto-contraste #tropicalia {
+    background: none;
+ }
+
+ .alto-contraste #galeria {
+    background-color: var(--alto-contraste-fundo);
+ }
+
+ .alto-contraste .fundo-galeria {
+    background: none;
+ }
